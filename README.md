@@ -1,6 +1,6 @@
 <h1>Predicting Loan Defaults With Machine Learning Models</h1>
 
- ### [View Full Report](https://github.com/jcastro712/CustomerSatisfaction/blob/main/Predicting%20Customer%20Satisfaction%20Short%20Version.pdf)
+ ### [View Full Report](https://github.com/jcastro712/LoanDefaultPrediction/blob/main/Loan%20Default%20Prediction.pdf)
 
  ### [View R Code](https://github.com/jcastro712/LoanDefaultPrediction/blob/main/Loan%20Default%20Code.R)
 
