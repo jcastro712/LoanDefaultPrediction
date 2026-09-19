@@ -2,7 +2,7 @@
 
  ### [View Full Report](https://github.com/jcastro712/CustomerSatisfaction/blob/main/Predicting%20Customer%20Satisfaction%20Short%20Version.pdf)
 
- ### [View R Code](https://github.com/jcastro712/CustomerSatisfaction/blob/main/Final%20Project%20Code.R)
+ ### [View R Code](https://github.com/jcastro712/LoanDefaultPrediction/blob/main/Loan%20Default%20Code.R)
 
 <h2>Description</h2>
 This project uses machine learning in R to predict whether a borrower will default on a loan. Using a dataset of 255,347 borrowers with 18 variables covering demographics, employment, credit history, and loan terms, the analysis trains and compares Logistic Regression, Random Forest, and XGBoost, then tunes the best-performing model with a grid search before evaluating all four models on an untouched holdout sample.
