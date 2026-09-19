@@ -65,35 +65,35 @@ Recall stayed low across every model, a reflection of how rare and hard-to-catch
 
 <p align="center"> 
 About 12% of borrowers in the dataset defaulted, a meaningful class imbalance: <br/> 
-<img src="loan_images/figure1_class_balance.png" height="50%" width="50%" alt="Default Rate (Class Balance)"/> 
+<img src="loan_images/figure1.png" height="50%" width="50%" alt="Default Rate (Class Balance)"/> 
 <br /> 
 <br /> 
 Defaulters skewed toward lower credit scores, though the two groups overlap heavily: <br/> 
-<img src="loan_images/figure2_credit_score.png" height="50%" width="50%" alt="Credit Score by Default Status"/> 
+<img src="loan_images/figure2.png" height="50%" width="50%" alt="Credit Score by Default Status"/> 
 <br /> 
 <br /> 
 Defaulters also tended to have lower income on average: <br/> 
-<img src="loan_images/figure3_income.png" height="50%" width="50%" alt="Income by Default Status"/> 
+<img src="loan_images/figure3.png" height="50%" width="50%" alt="Income by Default Status"/> 
 <br /> 
 <br /> 
 Higher interest rates were associated with a higher likelihood of default: <br/> 
-<img src="loan_images/figure4_interest_rate.png" height="50%" width="50%" alt="Interest Rate by Default Status"/> 
+<img src="loan_images/figure4.png" height="50%" width="50%" alt="Interest Rate by Default Status"/> 
 <br /> 
 <br /> 
 Logistic Regression ranks age and interest rate as the strongest predictors: <br/> 
-<img src="loan_images/figure5_logit_importance.png" height="50%" width="50%" alt="Logit Model - Most Important Variables"/> 
+<img src="loan_images/figure5.png" height="50%" width="50%" alt="Logit Model - Most Important Variables"/> 
 <br /> 
 <br /> 
 Random Forest puts income, interest rate, and loan amount at the top, and gives credit score more weight than the logit model does: <br/> 
-<img src="loan_images/figure6_rf_importance.png" height="50%" width="50%" alt="Random Forest - Most Important Variables"/> 
+<img src="loan_images/figure6.png" height="50%" width="50%" alt="Random Forest - Most Important Variables"/> 
 <br /> 
 <br /> 
 XGBoost concentrates most of its predictive power in five variables — age, interest rate, income, loan amount, and months employed: <br/> 
-<img src="loan_images/figure7_xgb_importance.png" height="50%" width="50%" alt="XGBoost - Most Important Variables"/> 
+<img src="loan_images/figure7.png" height="50%" width="50%" alt="XGBoost - Most Important Variables"/> 
 <br /> 
 <br /> 
 The tuned XGBoost model relies on largely the same top variables, with credit score and number of credit lines gaining a bit more relative weight: <br/> 
-<img src="loan_images/figure8_tuned_xgb_importance.png" height="50%" width="50%" alt="Tuned XGBoost - Most Important Variables"/> </p>
+<img src="loan_images/figure8.png" height="50%" width="50%" alt="Tuned XGBoost - Most Important Variables"/> </p>
 
 <h2>Next Steps and Limitations</h2>
 
